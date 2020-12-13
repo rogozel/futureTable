@@ -1,0 +1,13 @@
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 50px;
+    border-left: 1px black solid;
+    overflow: hidden;
+}
+
+.cell:first-child {
+    border: 0;
+}

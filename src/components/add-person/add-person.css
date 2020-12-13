@@ -1,0 +1,40 @@
+.add-form {
+    
+    background: #FFF;
+    border: 1px solid #000;
+    width: 600px;
+    height: 544px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -277px;
+    z-index: 2;
+    padding: 20px;
+}
+
+input{
+    height: 38px;
+}
+
+.none {
+    display: none;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 100px;
+}
+
+.check-data {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}

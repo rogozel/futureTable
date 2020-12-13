@@ -1,0 +1,25 @@
+.cell {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 50px;
+    border-left: 1px black solid;
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 0;
+    left:10px;
+    font-size: 24px !important;
+}
+
+.cell:first-child {
+    border: 0;
+}
+
+.table-header {
+    margin: 20px 0;
+}
