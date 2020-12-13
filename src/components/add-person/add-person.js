@@ -64,7 +64,7 @@ export default class AddPerson extends Component {
     send() {
         const idList = this.props.arrId.map((item) => {return item.id})
 
-        if (!isNaN(this.state.id) && (!/\d/.test((this.state.firstName))) &&
+        if (!isNaN(this.state.id) && (this.state.id >= 0) && (!/\d/.test((this.state.firstName))) &&
             (!/\d/.test((this.state.lastName))) && (isNaN(this.state.email)) &&
             (/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/.test(this.state.phone)) && !idList.includes(parseInt(this.state.id))) {
             
