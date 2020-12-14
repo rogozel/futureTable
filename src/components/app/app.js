@@ -168,7 +168,7 @@ export default class App extends Component {
         }
         return items.filter((item) => {
             const label = item.id + ' ' + item.firstName + ' ' + item.lastName + ' ' + item.email + ' ' + item.phone;
-                return label.toLowerCase().indexOf(term) > -1
+            return label.toLowerCase().indexOf(term) > -1
         })
     }
 
