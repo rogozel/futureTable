@@ -237,10 +237,10 @@ export default class App extends Component {
                         <div 
                             className="d-flex top-panel">
                             <SearchPanel
-                            search={this.updateSearch}/>
+                                search={this.updateSearch}/>
                             <AddPerson
-                            arrId={data}
-                            addForm={this.addForm}/>
+                                arrId={data}
+                                addForm={this.addForm}/>
                         </div>
                         <TableHeader
                             reverseId={reverseId}
