@@ -195,8 +195,8 @@ export default class App extends Component {
         fetch(url)
             .then(response => response.json())
             .then(result => this.setState(({data, loading}) => {
-                result = result.sort((a, b) => a.id - b.id);
-                const res = this.unique(result)
+                let res = this.unique(result)
+                res = res.sort((a, b) => a.id - b.id);
                 return {
                     data: res,
                     loading: false
